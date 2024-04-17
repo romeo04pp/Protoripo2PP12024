@@ -1,5 +1,9 @@
 #include "Paciente.h"
 
+const string USUARIO = "Administrador";
+const string PASSW = "1234";
+using namespace std;
+
 void Paciente::menu()
 {
     int choice;
@@ -60,13 +64,13 @@ void persona::insertar()
 	fstream file;
 	cout<<"\n------------------------------------------------------------------------------------------------------------------------";
 	cout<<"\n-------------------------------------------------Agregar detalles Persona ---------------------------------------------"<<endl;
-	cout<<"\t\t\tIngresa Id Persona         : ";
+	cout<<"\t\t\tIngresa Id Paciente         : ";
 	cin>>id;
-	cout<<"\t\t\tIngresa Nombre Persona     : ";
+	cout<<"\t\t\tIngresa Nombre Paciente     : ";
 	cin>>name;
-	cout<<"\t\t\tIngresa Contraseña Persona   : ";
+	cout<<"\t\t\tIngresa Contraseña Paciente   : ";
 	cin>>pass;
-	file.open("Usuarios.txt", ios::app | ios::out);
+	file.open("Pacientes.txt", ios::app | ios::out);
 	file<<std::left<<std::setw(15)<< id <<std::left<<std::setw(15)<< name <<std::left<<std::setw(15)<< pass << "\n";
 	file.close();
 }
