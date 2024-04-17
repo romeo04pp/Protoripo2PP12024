@@ -1,4 +1,5 @@
 #include "MenuPrincipal.h"
+#include "Paciente.h"
 #include <cstdlib>
 using namespace std;
 

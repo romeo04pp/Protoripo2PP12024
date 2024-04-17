@@ -1,23 +1,29 @@
-#ifndef PACIENTE_H
-#define PACIENTE_H
-//librerias a usar
+#ifndef PERSONA_H
+#define PERSONA_H
+//Librerias
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
+
 using namespace std;
 
-class Paciente
+class paciente//Clase paciente para iniciar sesion
 {
-    public:
-        Paciente();
-
-
-    protected:
-
-    private:
+	private:
+    string id, name, apellido, date, genero, adress, phone, contrasenas;
+	public:
+		void menu();
+		void insertar();
+		void desplegar();
+		void modificar();
+		void buscar();
+		void borrar();
+		bool loginPersona();
+        bool buscarLoginPersona(string user, string passw);
 };
 
-#endif // PACIENTE_H
+
+#endif // PERSONA_H

@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1713373439 source:c:\users\home\desktop\materiales u\3ersemestre\progra1\tareasprogra1\exa2serie4p\protoripo2pp12024\prototipo2pp12024\main.cpp
+	<iostream>
+	<conio.h>
+	"Paciente.h"
+	"MenuPrincipal.h"
+
+1713373737 c:\users\home\desktop\materiales u\3ersemestre\progra1\tareasprogra1\exa2serie4p\protoripo2pp12024\prototipo2pp12024\include\paciente.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713371214 c:\users\home\desktop\materiales u\3ersemestre\progra1\tareasprogra1\exa2serie4p\protoripo2pp12024\prototipo2pp12024\include\menuprincipal.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713373439 source:c:\users\home\desktop\materiales u\3ersemestre\progra1\tareasprogra1\exa2serie4p\protoripo2pp12024\prototipo2pp12024\src\menuprincipal.cpp
+	"MenuPrincipal.h"
+	"Paciente.h"
+	<cstdlib>
+
