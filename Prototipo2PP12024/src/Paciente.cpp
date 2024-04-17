@@ -5,7 +5,3 @@ Paciente::Paciente()
     //ctor
 }
 
-Paciente::~Paciente()
-{
-    //dtor
-}
