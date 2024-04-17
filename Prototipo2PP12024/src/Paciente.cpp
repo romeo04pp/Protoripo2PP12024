@@ -1,6 +1,6 @@
 #include "Paciente.h"
 
-Paciente::Paciente()
+Paciente::paciente()
 {
     //ctor
 }

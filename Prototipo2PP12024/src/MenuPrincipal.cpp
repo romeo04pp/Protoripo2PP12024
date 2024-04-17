@@ -5,7 +5,7 @@ using namespace std;
 void menuPrincipal() //funcion llamara al menu principal
 {
     system("cls");
-    int options;
+    int opcion;
     bool repetir = true;
     do {
     cout << "\n\t\t  Autor: Pablo Romeo Palencia Rosales  9959-23-736" << endl;
@@ -21,10 +21,10 @@ void menuPrincipal() //funcion llamara al menu principal
 	cout<<"\t\tOpcion a escoger:[1/2/3]"<<endl;
 	cout<<"\t\t-------------------------------"<<endl;
 	cout<<"\n\n\t\tIngresa tu Opcion: ";
-    cin>>options;
+    cin>>opcion;
     system("cls");
 
-    switch (options)
+    switch (opcion)
     {
 case 1:
     subMenuCatalogos();
@@ -40,20 +40,20 @@ case 3:
 default:
     cout << "Opcion invalida. Intente otra vez.";
     }
-    } while (options != 3);
+    } while (opcion != 3);
 }
 
 //Muestrá el submenu Catalogos
 void subMenuCatalogos()
 {
-    persona rama;
+    paciente rama;
     rama.menu();
 }
 
 //Muestra los archivos de informe
 void subMenuInformes()
 {
-    persona rama;
+    paciente rama;
     rama.desplegar();
 }
 

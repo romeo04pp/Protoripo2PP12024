@@ -9,15 +9,10 @@
 #include<iomanip>
 using namespace std;
 
-class MenuPrincipal
-{
-    public:
-        MenuPrincipal();
+//funciones que llaman a las tres opciones principales del menu
 
-
-    protected:
-
-    private:
-};
+void menuPrincipal();
+void subMenuCatalogos();
+void subMenuInformes();
 
 #endif // MENUPRINCIPAL_H
